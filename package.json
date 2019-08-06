@@ -17,6 +17,20 @@
     "start": "parcel index.html"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.3",
+    "postcss-color-mod-function": "^3.0.3"
+  },
+  "dependencies": {
+    "postcss-grid-kiss": "^2.1.4",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      },
+      "postcss-color-mod-function": {},
+      "postcss-grid-kiss": true
+    }
   }
 }
