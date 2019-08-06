@@ -1,0 +1,22 @@
+{
+  "name": "cssProject",
+  "version": "1.0.0",
+  "description": "Css project with Nomad Corder.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fire216/cssProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fire216/cssProject/issues"
+  },
+  "homepage": "https://github.com/fire216/cssProject#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
